@@ -32,6 +32,9 @@ npm install -g gen-mcp
 npx gen-mcp
 ```
 
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/84cb088e-8b7c-410d-baae-aa1bd5cb265d" />
+
+
 ### 创建项目
 
 安装后，只需运行以下命令：
