@@ -1,0 +1,25 @@
+{
+  "name": "gen-mcp",
+  "version": "0.0.1",
+  "description": "CLI tool for creating MCP server",
+  "main": "index.js",
+  "bin": {
+    "red-mcp": "index.js",
+    "mcp": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {},
+  "dependencies": {
+    "cfonts": "^3.2.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12",
+    "mustache": "^4.2.0",
+    "semver": "^7.5.4",
+    "zx": "^7.2.3"
+  }
+}
