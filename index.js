@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function greeting(currentPackageJson) {
-  Say.say("red-mcp", {
+  Say.say("gen-mcp", {
     colors: ["#ff2e4d", "cyan"],
   });
   echo`${chalk.hex("#0f0")("版本: " + currentPackageJson.version)}`;
