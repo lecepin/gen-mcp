@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node -e \"require('fs').cpSync('src', 'build', {filter: (src) => src.endsWith('.js'), recursive: true})\"",
     "prepare": "npm run build",
     "watch": "tsc --watch",
     "start": "node build/index.js",
@@ -16,6 +16,7 @@
     "@modelcontextprotocol/sdk": "1.8.0",
     "express": "^4.18.2",
     "cors": "^2.8.5",
+    "winston": "^3.17.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {

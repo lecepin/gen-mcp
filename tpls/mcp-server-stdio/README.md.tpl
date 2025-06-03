@@ -53,3 +53,16 @@ npm run inspector
 ```
 
 Inspector将提供一个URL，让您可以在浏览器中访问调试工具。
+
+### MCP 配置
+
+```
+{
+  "mcpServers": {
+    "{{pkgName}}": {
+      "command": "npx",
+      "args": ["-y", "{{pkgName}}"]
+    }
+  }
+}
+```

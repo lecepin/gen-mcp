@@ -62,3 +62,16 @@ npx -y @modelcontextprotocol/inspector
    - 点击"保存"
 
 现在您可以在 Claude 中使用服务器提供的资源、工具和提示。 
+
+### MCP 配置
+
+```
+{
+  "mcpServers": {
+    "{{pkgName}}": {
+      "type": "url",
+      "url": "http://localhost:3001/sse"
+    }
+  }
+}
+```
