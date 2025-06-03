@@ -1,6 +1,6 @@
 {
   "name": "gen-mcp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "CLI tool for creating MCP server",
   "main": "index.js",
   "bin": {
